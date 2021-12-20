@@ -956,6 +956,11 @@ margin-bottom: 10px;
     transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-tel::placeholder {
+    color: rgba(199, 194, 194, 0.9);
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /*Комментарий*/
 .comment-form {
     margin-bottom: 20px;
